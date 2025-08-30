@@ -1,0 +1,50 @@
+.form-table {
+	margin: 20px 0;
+}
+
+.form-table th {
+	display: none;
+}
+
+.form-table td {
+	padding: 0 !important;
+}
+
+.wrap > h2 {
+	margin-bottom: 50px;
+}
+
+form > h3 {
+	position: absolute;
+	top: 40px;
+}
+
+.toggle-save-btns p {
+	display: inline-block;
+	padding: 0 !important;
+	margin: 0 !important;
+	margin-left: 8px !important;
+}
+
+.toggle-save-btns a {
+	margin-left: 8px !important;
+}
+
+.customizer-section {
+	width: 300px;
+	margin-bottom: 5px;
+	border-left: 4px solid #e1e1e1;
+	cursor: pointer;
+}
+
+.customizer-section-active {
+	border-left: 4px solid #298cba;
+}
+
+.customizer-section img {
+	display: block;
+}
+
+.customizer-section input {
+	display: none;
+}

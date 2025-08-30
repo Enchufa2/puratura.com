@@ -1,0 +1,137 @@
+/* clear floats */
+.clear {
+    clear:both;
+}
+
+input[type="checkbox"] {
+	margin: 0 0 0 5px !important;
+}
+
+/* hide metaboxes */
+div[id*="post_meta_box"] {
+	display: none;
+}
+
+/* margins */
+div[id^="royal_"] input,
+div[id^="royal_"] textarea {
+	margin: 5px 0 12px 0;
+}
+
+div[class^="royal-"] {
+	display: none;
+	margin-top: 20px;
+}
+
+/* allowed html */
+.allowed-html {
+	float: right;
+	margin-left: 50px;
+	font-style: italic;
+	color: #999;
+}
+
+/* portfolio items from */
+.folio-items-from {
+	margin-left: 15px;
+}
+
+
+
+/*
+***************************************************************
+* #Gallery
+***************************************************************
+*/
+
+/* input fields */
+#rf_gallery_img_ids,
+#rf_gallery_imgs_src {
+    display: none;
+}
+
+.gallery-wrap {
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.gallery-image {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #0074A2;
+    border-radius: 3px;
+    cursor: move;
+}
+
+.ui-state-highlight {
+    border: 2px dashed #ccc;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-right: 18px;
+}
+
+.gallery-wrap img {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+/* delete img icon */
+.remove {
+    display: block;
+    position: absolute;
+    top: -9px;
+    right: -9px;
+    width: 25px;
+    height: 25px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.1s ease 0s, color 0.1s ease 0s;
+    box-shadow: 1px 1px 2px #0074A2;
+    -moz-user-select:none;
+    user-select:none;
+}
+
+.remove:hover {
+    background-color: #111;
+    color: #0074A2;
+}
+
+.editlink {
+    position: absolute;
+    top: -9px;
+    right: 16px;
+    width: 40px;
+    height: 25px;
+   	border-top-left-radius: 2px;
+   	border-bottom-left-radius: 2px;
+    background-color: #2EA2CC;
+    color: #eee;
+    text-decoration: none;
+    text-align: center;
+    line-height: 22px;
+    font-weight: bold;
+    transition: background-color 0.1s ease 0s, color 0.1s ease 0s;
+    box-shadow: 1px 1px 2px #0074A2;
+}
+
+.editlink:hover {
+    background-color: #0774a2;
+    color: #fff;
+}
+
+#rf_gallery_imgs_upload {
+	margin-right: 20px;
+}
+
+
